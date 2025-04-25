@@ -17,44 +17,44 @@ page_bg_img = '''
 </style>
 '''
 
-st.markdown(page_bg_img, unsafe_allow_html=True)
+# st.markdown(page_bg_img, unsafe_allow_html=True)
 
-# Responsive background + text color based on system theme
-st.markdown("""
-<style>
-/* Background styling */
-.stApp {
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
+# # Responsive background + text color based on system theme
+# st.markdown("""
+# <style>
+# /* Background styling */
+# .stApp {
+#     background-size: cover;
+#     background-position: center;
+#     background-repeat: no-repeat;
+#     background-attachment: fixed;
+# }
 
-/* Light mode: dark text on light background */
-@media (prefers-color-scheme: light) {
-    .custom-header {
-        color: #111111;
-        font-size: 24px;
-        font-weight: bold;
-    }
-    .team-names {
-        color: #222222;
-    }
-}
+# /* Light mode: dark text on light background */
+# @media (prefers-color-scheme: light) {
+#     .custom-header {
+#         color: #111111;
+#         font-size: 24px;
+#         font-weight: bold;
+#     }
+#     .team-names {
+#         color: #222222;
+#     }
+# }
 
-/* Dark mode: light text on dark background */
-@media (prefers-color-scheme: dark) {
-    .custom-header {
-        color: #ffffff;
-        font-size: 24px;
-        font-weight: bold;
-    }
-    .team-names {
-        color: #dddddd;
-    }
-}
-</style>
-""", unsafe_allow_html=True)
+# /* Dark mode: light text on dark background */
+# @media (prefers-color-scheme: dark) {
+#     .custom-header {
+#         color: #ffffff;
+#         font-size: 24px;
+#         font-weight: bold;
+#     }
+#     .team-names {
+#         color: #dddddd;
+#     }
+# }
+# </style>
+# """, unsafe_allow_html=True)
 
 # Render content with classes
 st.title("📊 Dividend Trend Predictor")
