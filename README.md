@@ -2,7 +2,7 @@
 
 This Streamlit web application predicts whether a public company's dividend payout is likely to **increase**, **decrease**, or **stay the same** based on financial ratio analysis. The model leverages historical financial data and live updates from `yfinance` to generate real-time predictions for multiple industries.
 
-Try the live app: [Dividend Predictor Streamlit App](https://ba870-project-dividend-predictor-app.streamlit.app/))
+Try the live app: [Dividend Predictor Streamlit App](https://ba870-project-dividend-predictor-app.streamlit.app/)
 
 ## Features
 
