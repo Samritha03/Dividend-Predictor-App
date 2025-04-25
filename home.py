@@ -33,7 +33,45 @@
 # - Crystal Leatvanich MSBA'25
 # """, unsafe_allow_html=True)
 
+#################
+# # File: home.py
+# import streamlit as st
 
+# # Set page configuration
+# st.set_page_config(page_title="Home", page_icon="🏠", layout="wide")
+
+# # --- Background image CSS ---
+# page_bg_img = '''
+# <style>
+# .stApp {
+#     background-image: url('https://www.pristinemarketinsights.com/assets/images/banking-and-finance-bg.jpg');
+#     background-size: cover;
+#     background-position: center;
+#     background-repeat: no-repeat;
+#     background-attachment: fixed;
+# }
+# </style>
+# '''
+# st.markdown(page_bg_img, unsafe_allow_html=True)
+
+# # --- Render content ---
+# st.title("📊 Dividend Trend Predictor")
+
+# st.markdown("""
+# <span style='font-size: 24px; font-weight: bold;'>BA870 Financial Analytics - Final Project</span>
+
+# <br><br>
+
+# <span style='font-size: 18px; font-weight: bold;'>Team Members:</span><br>
+# <ul style='font-size: 18px; font-weight: bold;'>
+#   <li>Samritha Aadhi Ravikumar MSDS'25</li>
+#   <li>Akshara Ramprasad MSDS'25</li>
+#   <li>Crystal Leatvanich MSBA'25</li>
+# </ul>
+# """, unsafe_allow_html=True)
+
+
+#############
 # File: home.py
 import streamlit as st
 
@@ -50,22 +88,49 @@ page_bg_img = '''
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+
+/* Transparent box styling */
+.transparent-box {
+    background-color: rgba(0, 0, 0, 0.5); /* Black background with 50% opacity */
+    padding: 2rem;
+    border-radius: 10px;
+    width: 60%;
+    margin: 2rem auto;
+    text-align: center;
+}
+.transparent-box h1 {
+    color: white;
+    font-size: 36px;
+}
+.transparent-box h2 {
+    color: white;
+    font-size: 24px;
+}
+.transparent-box ul {
+    list-style-type: none;
+    padding: 0;
+}
+.transparent-box li {
+    color: white;
+    font-size: 18px;
+    margin-bottom: 0.5rem;
+}
 </style>
 '''
 st.markdown(page_bg_img, unsafe_allow_html=True)
 
 # --- Render content ---
-st.title("📊 Dividend Trend Predictor")
-
 st.markdown("""
-<span style='font-size: 24px; font-weight: bold;'>BA870 Financial Analytics - Final Project</span>
-
-<br><br>
-
-<span style='font-size: 18px; font-weight: bold;'>Team Members:</span><br>
-<ul style='font-size: 18px; font-weight: bold;'>
-  <li>Samritha Aadhi Ravikumar MSDS'25</li>
-  <li>Akshara Ramprasad MSDS'25</li>
-  <li>Crystal Leatvanich MSBA'25</li>
-</ul>
+<div class="transparent-box">
+    <h1>📊 Dividend Trend Predictor</h1>
+    <h2>BA870 Financial Analytics - Final Project</h2>
+    <br>
+    <h2>Team Members:</h2>
+    <ul>
+        <li>Samritha Aadhi Ravikumar MSDS'25</li>
+        <li>Akshara Ramprasad MSDS'25</li>
+        <li>Crystal Leatvanich MSBA'25</li>
+    </ul>
+</div>
 """, unsafe_allow_html=True)
+
