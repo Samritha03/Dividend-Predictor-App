@@ -108,4 +108,4 @@ streamlit run app.py
 
 - None. Feel free to use and modify with credit.
 
-Created as part of BA870 Financial Analytics @ Boston University
+Created as part of BA870 Financial Analytics @Boston University
