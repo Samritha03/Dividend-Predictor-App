@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-st.header("📊 Financial Ratios Used in Prediction")
+st.header("📚 Financial Ratios Used in Prediction")
 
 st.markdown("""
 This Dividend App leverages a combination of WRDS (Wharton Research Data Services) and real-time financials from yfinance to generate accurate and meaningful financial ratios.
