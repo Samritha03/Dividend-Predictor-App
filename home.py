@@ -16,18 +16,41 @@ page_bg_img = '''
 }
 </style>
 '''
-st.markdown(page_bg_img, unsafe_allow_html=True)
 
-# --- Render content ---
-st.title("📊 Dividend Trend Predictor")
+# st.markdown(page_bg_img, unsafe_allow_html=True)
+
+# # --- Render content ---
+# st.title("📊 Dividend Trend Predictor")
+
+# st.markdown("""
+# <span style='font-size: 24px; font-weight: bold;'>BA870 Financial Analytics - Final Project</span>
+
+# <br>
+
+# Team Members:
+# - Samritha Aadhi Ravikumar MSDS'25
+# - Akshara Ramprasad MSDS'25
+# - Crystal Leatvanich MSBA'25
+# """, unsafe_allow_html=True)
+
+
 
 st.markdown("""
-<span style='font-size: 24px; font-weight: bold;'>BA870 Financial Analytics - Final Project</span>
+<div style='background-color: rgba(0,0,0,0.6); padding: 2rem; border-radius: 5px;'>
+
+<h1 style='color: white;'>📊 Dividend Trend Predictor</h1>
+
+<p style='font-size: 24px; font-weight: bold; color: white;'>BA870 Financial Analytics - Final Project</p>
 
 <br>
 
-Team Members:
-- Samritha Aadhi Ravikumar MSDS'25
-- Akshara Ramprasad MSDS'25
-- Crystal Leatvanich MSBA'25
+<p style='font-size: 18px; font-weight: bold; color: white;'>Team Members:</p>
+<ul style='font-size: 18px; font-weight: bold; color: white;'>
+    <li>Samritha Aadhi Ravikumar MSDS'25</li>
+    <li>Akshara Ramprasad MSDS'25</li>
+    <li>Crystal Leatvanich MSBA'25</li>
+</ul>
+
+</div>
 """, unsafe_allow_html=True)
+
