@@ -4,6 +4,21 @@ import streamlit as st
 # Set page configuration
 st.set_page_config(page_title="Home", page_icon="🏠", layout="wide")
 
+# --- Background image CSS ---
+page_bg_img = '''
+<style>
+[data-testid="stAppViewContainer"] {
+    background-image: url("https://images.app.goo.gl/psKma3CBv9oELzgW9");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+</style>
+'''
+
+st.markdown(page_bg_img, unsafe_allow_html=True)
+
 # Responsive background + text color based on system theme
 st.markdown("""
 <style>
