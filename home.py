@@ -8,7 +8,7 @@ st.set_page_config(page_title="Home", page_icon="🏠", layout="wide")
 page_bg_img = '''
 <style>
 [data-testid="stAppViewContainer"] {
-    background-image: url("https://images.app.goo.gl/psKma3CBv9oELzgW9");
+    background-image: url("https://images.app.goo.gl/y8yss8YHQWL1Hw5WA");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
