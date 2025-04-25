@@ -3,7 +3,7 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-st.title("🏠 About our Dataset")
+st.title("🗂️ Our Dataset")
 
 # --- Load training dataset ---
 try:
