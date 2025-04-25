@@ -42,7 +42,7 @@ st.set_page_config(page_title="Home", page_icon="🏠", layout="wide")
 page_bg_img = '''
 <style>
 .stApp {
-    background-image: url('https://images.unsplash.com/photo-1549924231-f129b911e442?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80');
+    background-image: url('https://images.unsplash.com/photo-1611974789851-9c2a0a7236a3?auto=format&fit=crop&w=1470&q=80');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
