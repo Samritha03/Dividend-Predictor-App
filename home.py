@@ -8,7 +8,7 @@ st.set_page_config(page_title="Home", page_icon="🏠", layout="wide")
 page_bg_img = '''
 <style>
 .stApp {
-    background-image: url('https://finkeys.in/wp-content/uploads/2022/11/pms-aifs-bg.webp');
+    background-image: url('https://www.shutterstock.com/image-illustration/blue-money-business-graph-finance-600nw-2166540277.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
