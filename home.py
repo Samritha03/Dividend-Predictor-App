@@ -8,7 +8,7 @@ st.set_page_config(page_title="Home", page_icon="🏠", layout="wide")
 page_bg_img = '''
 <style>
 .stApp {
-    background-image: url('https://www.qatariinvestors.com/wp-content/uploads/2021/12/banking-and-financial-bg.jpg');
+    background-image: url('https://finkeys.in/wp-content/uploads/2022/11/pms-aifs-bg.webp');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
