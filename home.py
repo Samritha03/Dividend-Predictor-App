@@ -1,15 +1,8 @@
 # File: home.py
 import streamlit as st
 
-# st.set_page_config(
-#     page_title="Dividend Trend Predictor",
-#     page_icon="📈",
-#     layout="wide"
-# )
-
-# Set page config
 # Set page configuration
-st.set_page_config(page_title="Home", layout="wide")
+st.set_page_config(page_title="Home", page_icon="🏠", layout="wide")
 
 # Inject custom CSS for dark background image
 st.markdown(
