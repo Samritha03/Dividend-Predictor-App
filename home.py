@@ -78,7 +78,7 @@ import streamlit as st
 # Set page configuration
 st.set_page_config(page_title="Home", page_icon="🏠", layout="wide")
 
-# --- Background image CSS ---
+# --- Background image and box CSS ---
 page_bg_img = '''
 <style>
 .stApp {
@@ -89,13 +89,14 @@ page_bg_img = '''
     background-attachment: fixed;
 }
 
-/* Transparent box styling */
+/* Transparent left-aligned box */
 .transparent-box {
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.2);
     padding: 2rem;
-    border-radius: 10px;
-    width: 60%;
-    margin: 2rem auto;
+    border-radius: 5px;
+    width: 50%;
+    margin-left: 2rem;
+    margin-top: 2rem;
 }
 .transparent-box h1 {
     color: white;
@@ -107,7 +108,7 @@ page_bg_img = '''
 }
 .transparent-box ul {
     list-style-type: none;
-    padding: 0;
+    padding-left: 1rem;
 }
 .transparent-box li {
     color: white;
@@ -126,10 +127,11 @@ st.markdown("""
     <br>
     <h2>Team Members:</h2>
     <ul>
-        <li>-Samritha Aadhi Ravikumar MSDS'25</li>
-        <li>-Akshara Ramprasad MSDS'25</li>
-        <li>-Crystal Leatvanich MSBA'25</li>
+        <li>- Samritha Aadhi Ravikumar MSDS'25</li>
+        <li>- Akshara Ramprasad MSDS'25</li>
+        <li>- Crystal Leatvanich MSBA'25</li>
     </ul>
 </div>
 """, unsafe_allow_html=True)
+
 
