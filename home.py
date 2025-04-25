@@ -35,38 +35,41 @@
 # File: home.py
 import streamlit as st
 
-# Set page configuration
+# Page configuration
 st.set_page_config(page_title="Home", page_icon="🏠", layout="wide")
 
-# --- Inject custom CSS for dark translucent overlay ---
-st.markdown(
-    """
+# CSS for background + translucent blur block
+st.markdown("""
     <style>
     .stApp {
         background-image: url('https://images.unsplash.com/photo-1508780709619-79562169bc64');
         background-size: cover;
         background-position: center;
-        background-repeat: no-repeat;
         background-attachment: fixed;
     }
+
+    /* Blur + transparency for main container */
     .main-block {
-        background-color: rgba(0, 0, 0, 0.6); /* translucent black */
+        background: rgba(0, 0, 0, 0.6); /* semi-transparent black */
+        backdrop-filter: blur(6px);     /* actual blur */
+        -webkit-backdrop-filter: blur(6px);
         padding: 2rem;
-        border-radius: 12px;
+        border-radius: 15px;
         margin: 2rem;
     }
-    h1 {
-        color: white;
+
+    h1, h2, h3, p, li, span {
+        color: white !important;
     }
-    p, li, span {
-        color: white;
+
+    /* Optional: Remove top search tab */
+    [data-testid="stToolbar"] {
+        visibility: hidden;
     }
     </style>
-    """,
-    unsafe_allow_html=True
-)
+""", unsafe_allow_html=True)
 
-# --- Main App Content inside translucent block ---
+# Render content
 with st.container():
     st.markdown("<div class='main-block'>", unsafe_allow_html=True)
 
@@ -84,3 +87,4 @@ with st.container():
     """, unsafe_allow_html=True)
 
     st.markdown("</div>", unsafe_allow_html=True)
+
