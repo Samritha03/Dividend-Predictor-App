@@ -38,19 +38,19 @@ import streamlit as st
 # Set page configuration
 st.set_page_config(page_title="Home", page_icon="🏠", layout="wide")
 
-# --- Background image CSS ---
-page_bg_img = '''
+# --- Background gradient CSS ---
+page_bg_gradient = '''
 <style>
 .stApp {
-    background-image: url('https://images.unsplash.com/photo-1554224155-8d04cb0c4a39?auto=format&fit=crop&w=1470&q=80');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
     background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 </style>
 '''
-st.markdown(page_bg_img, unsafe_allow_html=True)
+st.markdown(page_bg_gradient, unsafe_allow_html=True)
 
 # --- Render content ---
 st.title("📊 Dividend Trend Predictor")
@@ -65,6 +65,7 @@ Team Members:
 - Akshara Ramprasad MSDS'25
 - Crystal Leatvanich MSBA'25
 """, unsafe_allow_html=True)
+
 
 
 
