@@ -88,9 +88,9 @@ Folder Structure
 ```
 Team Members:
 
-- Akshara Ramprasad – MSDS 2025
-
 - Samritha Aadhi Ravikumar – MSDS 2025
+
+- Akshara Ramprasad – MSDS 2025
 
 - Crystal Leatvanich – MSBA 2025
 
