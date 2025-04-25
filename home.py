@@ -95,7 +95,7 @@ page_bg_img = '''
     padding: 1.5rem 2rem;
     border-radius: 10px;
     width: 60%;
-    margin: 1rem 0 2rem 2rem;
+    margin: 1rem 0 2rem 1rem;
 }
 
 .transparent-box h1 {
