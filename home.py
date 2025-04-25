@@ -125,7 +125,7 @@ st.markdown("""
     <h1>📊 Dividend Trend Predictor</h1>
     <h2>BA870 Financial Analytics - Final Project</h2>
     <br>
-    <h4>Team Members:</h4>
+    <h5>Team Members:</h5>
     <ul>
         <li>- Samritha Aadhi Ravikumar MSDS'25</li>
         <li>- Akshara Ramprasad MSDS'25</li>
