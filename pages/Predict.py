@@ -7,7 +7,7 @@
 # from xgboost import XGBClassifier
 # from lightgbm import LGBMClassifier
 
-# st.title("📈 Predict Dividend Change using yFinance Data")
+# st.title("📈 Predict Dividend Trend using yFinance Data")
 
 # ticker_input = st.text_input("Enter a Ticker Symbol (e.g., AAPL, MSFT, GE):", value="AAPL")
 # industry = st.selectbox("Select Industry", ["Consumer", "Financials", "Energy", "Other"])
