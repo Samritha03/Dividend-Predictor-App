@@ -50,7 +50,7 @@ The model uses 16+ key financial ratios across:
 
 ## Setup Instructions
 
-### 1. Clone the Repository
+1. Clone the Repository
 
 ```bash
 git clone https://github.com/akshara2403/Dividend-Predictor-App.git
@@ -70,7 +70,7 @@ streamlit run app.py
 
 
 
-Folder Structure
+## Folder Structure
 ```bash
 .
 ├── home.py                 # Main entry point with multi-page navigation
@@ -87,7 +87,8 @@ Folder Structure
 ├── requirements.txt
 └── README.md
 ```
-Team Members:
+
+## Team Members:
 
 - Samritha Aadhi Ravikumar – MSDS 2025
 
@@ -95,7 +96,7 @@ Team Members:
 
 - Crystal Leatvanich – MSBA 2025
 
-Future Work
+### Future Work
 
 - Expand model to include more sectors and global tickers
 
@@ -103,7 +104,7 @@ Future Work
 
 - Add model drift monitoring and alerts
 
-License
+### License
 
 - None. Feel free to use and modify with credit.
 
