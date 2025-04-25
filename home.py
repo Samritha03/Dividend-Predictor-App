@@ -91,13 +91,14 @@ page_bg_img = '''
 
 /* Transparent left-aligned box */
 .transparent-box {
-    background-color: rgba(0, 0, 0, 0.2);
-    padding: 3rem;
-    border-radius: 5px;
-    width: 50%;
-    margin-left: 3rem;
-    margin-top: 3rem;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 1.5rem 2rem;
+    border-radius: 10px;
+    width: 60%;
+    margin-left: 2rem;
+    margin-top: 2rem;
 }
+
 .transparent-box h1 {
     color: white;
     font-size: 36px;
