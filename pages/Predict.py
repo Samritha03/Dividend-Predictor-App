@@ -8,7 +8,7 @@ from lightgbm import LGBMClassifier
 
 st.title("📈 Predict Dividend Trend using yFinance Data")
 
-ticker_input = st.text_input("Enter a Ticker Symbol (e.g., AAPL, MSFT, GE):", value="AAPL")
+ticker_input = st.text_input("Enter a Ticker Symbol (e.g., AAPL, MSFT, GOOG):", value="AAPL")
 industry = st.selectbox("Select Industry", ["Consumer", "Financials", "Energy", "Other"])
 model_option = st.selectbox("Choose a Model:", ["CatBoost", "XGBoost", "LightGBM"])
 
