@@ -91,12 +91,11 @@ page_bg_img = '''
 
 /* Transparent box styling */
 .transparent-box {
-    background-color: rgba(0, 0, 0, 0.5); /* Black background with 50% opacity */
+    background-color: rgba(0, 0, 0, 0.3);
     padding: 2rem;
     border-radius: 10px;
     width: 60%;
     margin: 2rem auto;
-    text-align: center;
 }
 .transparent-box h1 {
     color: white;
@@ -127,9 +126,9 @@ st.markdown("""
     <br>
     <h2>Team Members:</h2>
     <ul>
-        <li>Samritha Aadhi Ravikumar MSDS'25</li>
-        <li>Akshara Ramprasad MSDS'25</li>
-        <li>Crystal Leatvanich MSBA'25</li>
+        <li>-Samritha Aadhi Ravikumar MSDS'25</li>
+        <li>-Akshara Ramprasad MSDS'25</li>
+        <li>-Crystal Leatvanich MSBA'25</li>
     </ul>
 </div>
 """, unsafe_allow_html=True)
