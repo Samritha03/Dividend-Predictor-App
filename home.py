@@ -92,11 +92,11 @@ page_bg_img = '''
 /* Transparent left-aligned box */
 .transparent-box {
     background-color: rgba(0, 0, 0, 0.2);
-    padding: 2rem;
+    padding: 3rem;
     border-radius: 5px;
     width: 50%;
-    margin-left: 2rem;
-    margin-top: 2rem;
+    margin-left: 3rem;
+    margin-top: 3rem;
 }
 .transparent-box h1 {
     color: white;
@@ -125,7 +125,7 @@ st.markdown("""
     <h1>📊 Dividend Trend Predictor</h1>
     <h2>BA870 Financial Analytics - Final Project</h2>
     <br>
-    <h2>Team Members:</h2>
+    <h3>Team Members:</h3>
     <ul>
         <li>- Samritha Aadhi Ravikumar MSDS'25</li>
         <li>- Akshara Ramprasad MSDS'25</li>
