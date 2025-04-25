@@ -17,6 +17,7 @@ page_bg_img = '''
 </style>
 '''
 
+st.markdown(page_bg_img, unsafe_allow_html=True)
 # st.markdown(page_bg_img, unsafe_allow_html=True)
 
 # # Responsive background + text color based on system theme
