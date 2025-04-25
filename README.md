@@ -73,13 +73,13 @@ streamlit run app.py
 Folder Structure
 ```bash
 .
-├── app.py                    # Main entry point with multi-page navigation
-├── pages/                   # All Streamlit subpages
-│   ├── about.py             # About project
-│   ├── code.py              # Model training code (tabbed)
-│   ├── main.py              # Our dataset
-│   ├── Ratios_we_used.py    # Look into the ratios used for our dataset
-│   └── predict_from_yfinance.py
+├── home.py                 # Main entry point with multi-page navigation
+├── pages/                  # All Streamlit subpages
+│   ├── About.py            # About project
+│   ├── Dataset.py          # Our dataset   
+│   ├── Models.py           # Model training code (tabbed)
+│   ├── Predict.py          # Predict using yfinance data
+│   └── Ratios.py           # Ratios used for our dataset
 
 ├── models/                  # Trained .pkl files per industry
 ├── images/                  # Confusion matrices and reports
